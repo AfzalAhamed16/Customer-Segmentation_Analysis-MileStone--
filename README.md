@@ -18,4 +18,14 @@ In the Power Query Editor, ensure data cleanliness by:
 Create associations between the datasets:
 Connect the Customer Dataset and Transaction Dataset using the CustomerID column.
 If utilizing a Product Dataset, establish a link to the Transaction Dataset through the ProductID column.
-
+3. Generating Additional Columns
+RFM Analysis: Introduce new columns for:
+Recency: Compute the number of days since the most recent purchase for each customer.
+Frequency: Calculate the total transaction count per customer.
+Monetary Value: Aggregate the total expenditure made by each customer.
+4.Demographic Segmentation:
+Age Groups: Customers are categorized into predefined groups based on their age, such as 18-25 and 26-35.
+Loyalty Points: Customers are grouped into low, medium, or high loyalty tiers according to their loyalty points.
+Payment Methods: Customers are segmented based on their preferred payment method, such as PayPal or credit card.
+#Conclusion
+The datasets have undergone successful cleaning and standardization, resulting in consistent, error-free, and well-structured data in each dataset, which can be utilized for analysis and reporting in Power BI.
